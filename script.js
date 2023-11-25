@@ -14,6 +14,19 @@ noBtn.addEventListener("click", () => {
   question.innerHTML = "Pretty Please??";
   gif.src =
     "https://media.giphy.com/media/5MxFJWDSm3boe6wigL/giphy.gif";
+
+    noBtn.addEventListener("click", () => {
+      question.innerHTML = "ok well then";
+      gif.src =
+        "https://64.media.tumblr.com/ca78837792381cc044fcc86f4744ff57/tumblr_oshzzizHck1ty7lb2o1_540.gif";
+
+        noBtn.addEventListener("click", () => {
+          question.innerHTML = "seriously!! We could have been this!";
+          gif.src =
+            "https://marvelousgeeksmedia.com/wp-content/uploads/2020/02/jake-amy-b99.gif";
+        });
+
+    });
 });
 
 
