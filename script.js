@@ -10,7 +10,15 @@ yesBtn.addEventListener("click", () => {
     "https://media.giphy.com/media/VpW0LoWNwGIgo7fams/giphy.gif";
 });
 
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
+  question.innerHTML = "Pretty Please??";
+  gif.src =
+    "https://media.giphy.com/media/5MxFJWDSm3boe6wigL/giphy.gif";
+});
+
+
+
+/*noBtn.addEventListener("mouseover", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
   const maxY = window.innerHeight - noBtnRect.height;
@@ -21,3 +29,4 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 });
+*/
